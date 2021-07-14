@@ -237,10 +237,5 @@ footer img{
         grid-template-columns: 1fr;
         grid-gap: 1em;
     }
-    .video_album{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1em;
-    }
 }
 /*--------------------responsive design for mobile end-------------------*/
