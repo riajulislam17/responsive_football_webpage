@@ -16,7 +16,8 @@ header{
     width: 90%;
     padding: 50px 5%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 5%;
 }
 .banner_title{
@@ -175,4 +176,52 @@ footer img{
 }
 /*--------------------
 footer end
+ -------------------*/
+
+/*--------------------
+responsive design for mobile start
+ -------------------*/
+@media (max-width: 700px) {
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
+    }
+    .match{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
+    }
+}
+/*--------------------
+responsive design for mobile end
+ -------------------*/
+
+/*--------------------
+responsive design for tablet start
+ -------------------*/
+@media (min-width: 1000px) {
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+    .match{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+}
+/*--------------------
+responsive design for tablet end
  -------------------*/
