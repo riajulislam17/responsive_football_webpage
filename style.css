@@ -223,7 +223,7 @@ footer img{
 /*--------------------footer end-------------------*/
 
 /*--------------------responsive design for mobile start -------------------*/
-@media only screen and (max-width: 600px) {
+@media(max-width: 600px) {
     .banner{
         display: grid;
         grid-template-columns: 1fr;
