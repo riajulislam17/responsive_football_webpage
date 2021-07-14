@@ -223,7 +223,7 @@ footer img{
 /*--------------------footer end-------------------*/
 
 /*--------------------responsive design for mobile start -------------------*/
-@media (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .banner{
         display: grid;
         grid-template-columns: 1fr;
@@ -241,23 +241,3 @@ footer img{
     }
 }
 /*--------------------responsive design for mobile end-------------------*/
-
-/*--------------------responsive design for tablet start -------------------*/
-@media (max-width: 900px) {
-    .banner{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1em;
-    }
-    .players{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1em;
-    }
-    .match{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1em;
-    }
-}
-/*--------------------responsive design for tablet end -------------------*/
